@@ -1,0 +1,225 @@
+ul { /* Navigation menu top */
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 25px;
+    overflow: hidden;
+	height: 75px;
+    background-color: hsl(240, 58%, 25%);
+	display: inline-block;
+	border-radius: 25px;
+	width: 60%;
+	padding-left: 80px;
+}
+header { /* Locating the menu in the middle */
+	padding: 30px 45px;
+	text-align: center;
+}
+li { /* Locating the text inside the navigation menu*/
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	box-sizing: border-box;
+}
+a:hover { /* When hovering over the text in the menu */
+    color: hsl(240, 38%, 5%);
+}
+.nobackground { 
+	border-radius: 0px;
+    background-color: hsl(240, 58%, 25%);
+	padding: 8px 25px;
+}
+
+body {
+	background-color: #f2f2f2;
+	margin: 0;	
+}
+
+
+
+/* CSS FOR TABLE */
+table {
+    border-collapse: collapse;
+    width: 100%;
+	border: 2px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+	
+	
+}
+
+.row {
+	background-color: white;
+	
+	}
+
+th {
+    background-color: hsl(240, 58%, 25%);
+    color: white;
+	font-weight: bold;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+}
+p.serif {
+	color: hsl(240, 58%, 25%);
+    font-family: Arial, Helvetica, sans-serif;
+	margin: 30px;
+	font-size: 1.55em;
+}
+h1.serif {
+	color: hsl(240, 58%, 25%);
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.footer {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+	text-align: center;
+}
+
+.block {
+    padding: 10px 0px;	
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+.column1 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+	margin: 30px;
+	background-color: white;
+}
+.column2 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+	margin: 35px;
+	background-color: white;
+}
+
+.active {
+    text-decoration: underline;
+	text-shadow: 0px 0px black;
+	
+}
+th.serif{font-family: Arial, Helvetica, sans-serif;
+	
+	
+}
+
+td.serif{font-family: Arial, Helvetica, sans-serif;
+	
+	
+}
+small {
+	color: black;
+}
+
+legend { 
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+}
+/* contact form css */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: hsl(240, 58%, 35%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: hsl(240, 68%, 55%);
+}
+
+div {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.link:link {
+    color: hsl(240, 58%, 25%);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* visited link */
+.link:visited {
+    color: hsl(240, 58%, 25%);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* mouse over link */
+.link:hover {
+    color: green;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* selected link */
+.link:active {
+    color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
